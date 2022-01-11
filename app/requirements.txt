@@ -1,4 +1,8 @@
-django
+Django==3.2.6
+gunicorn==20.1.0
+psycopg2-binary==2.9.1
+django-widget-tweaks
+whitenoise
 ipython
 pandas
 djangorestframework
@@ -10,7 +14,4 @@ vectorbt
 yfinance
 tabulate
 django-heroku
-django-widget-tweaks
-whitenoise
-gunicorn
 pylibmc
